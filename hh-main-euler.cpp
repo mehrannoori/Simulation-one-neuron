@@ -38,7 +38,8 @@ const double g_Na = 120,
              C_m  = 1;          // micro farad
 
 ofstream file_object;           // make an object to creat a file for saving datas
-std::string file_name = "hh_data_euler.txt";
+//std::string file_name = "hh_data_euler.txt";  use this for c++11
+const char* file_name = "hh_data_euler.txt";
 
 double t       = 0.,             // time and time step (ms)
        t_final = 100.,
